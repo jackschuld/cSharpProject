@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+
+<body>  
+    <form id="form1" runat="server">  
+     
+        <div>  
+            <h1>Enter Your Location Details</h1>  
+        </div>  
+        <div>  
+            <asp:TextBox ID="txt_location" TextMode="MultiLine" Width="400px" Height="70px" runat="server"></asp:TextBox>  
+    </div>  
+        <div>  
+            <input type="button" value="Search" onclick="getmap()">  
+        </div>  
+    <div id="map_populate" style="width:100%; height:500px; border: 5px solid #5E5454;">  
+    </div>  
+    </form>  
+</body>
